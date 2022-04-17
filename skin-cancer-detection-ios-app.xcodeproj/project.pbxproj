@@ -12,6 +12,7 @@
 		5290916D1EEB1A5700F2D83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5290916B1EEB1A5700F2D83E /* Main.storyboard */; };
 		5290916F1EEB1A5700F2D83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5290916E1EEB1A5700F2D83E /* Assets.xcassets */; };
 		529091721EEB1A5700F2D83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529091701EEB1A5700F2D83E /* LaunchScreen.storyboard */; };
+		5479504B280C52A20018CE05 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479504A280C52A20018CE05 /* IntroViewController.swift */; };
 		548A0FF1280B550A00F9ED52 /* InceptionV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 548A0FF0280B550A00F9ED52 /* InceptionV3.mlmodel */; };
 		54BBB2BC280B024E002D21A7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BBB2BB280B024E002D21A7 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,7 @@
 		5290916C1EEB1A5700F2D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5290916E1EEB1A5700F2D83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529091711EEB1A5700F2D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5479504A280C52A20018CE05 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		548A0FF0280B550A00F9ED52 /* InceptionV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = InceptionV3.mlmodel; path = ../../../Documents/SkinCancer/outputN/InceptionV3.mlmodel; sourceTree = "<group>"; };
 		54B5472F280B5814006AE412 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54BBB2BB280B024E002D21A7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				548A0FF0280B550A00F9ED52 /* InceptionV3.mlmodel */,
 				529091671EEB1A5700F2D83E /* AppDelegate.swift */,
 				529091691EEB1A5700F2D83E /* ViewController.swift */,
+				5479504A280C52A20018CE05 /* IntroViewController.swift */,
 				54BBB2BB280B024E002D21A7 /* UIImage+Extension.swift */,
 				5290916B1EEB1A5700F2D83E /* Main.storyboard */,
 				5290916E1EEB1A5700F2D83E /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5479504B280C52A20018CE05 /* IntroViewController.swift in Sources */,
 				5290916A1EEB1A5700F2D83E /* ViewController.swift in Sources */,
 				548A0FF1280B550A00F9ED52 /* InceptionV3.mlmodel in Sources */,
 				54BBB2BC280B024E002D21A7 /* UIImage+Extension.swift in Sources */,

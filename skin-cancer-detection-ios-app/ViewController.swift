@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         predLabel.isHidden = true
+        // self.title = "Classify Image"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
